@@ -124,4 +124,3 @@ if upload_file is not None:
             fig,ax = plt.subplots()
             ax.barh(labels, df_mcw[1])
             st.pyplot(fig)
-
