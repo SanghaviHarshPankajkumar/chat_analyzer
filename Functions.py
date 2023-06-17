@@ -1,5 +1,7 @@
 from urlextract import URLExtract
 from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+nltk.downloader.download('vader_lexicon')
 import pandas as pd
 import emoji
 from wordcloud import WordCloud
